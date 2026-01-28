@@ -8,7 +8,7 @@ app = FastAPI(
     title=settings.app_name,
     debug=settings.debug,
     ignore_trailing_slash=True,
-    root_path="/auth",
+    root_path="/note",
 )
 
 @app.on_event("startup")
